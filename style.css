@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    background: #000f22;
+    color: #fff;
+}
+
+.primary-color{
+    color: #ff954a
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#heading{
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 85px;
+    text-transform: uppercase;
+}
+#countdown{
+    font-size: 42px;    
+}
+
+#countdown ul{
+    display: flex;
+    list-style: none;
+}
+
+#countdown ul li{
+    padding: 10px 30px;
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countdown ul li span{
+    color: #fff;
+}
+
+.emoji{
+    display: none;
+    font-size: 86px;
+}
+
+@media all and (max-width: 768px) {
+    #countdown ul li {
+        padding: 5px 15px;
+        font-size: 17px;
+    }
+    #heading {
+        font-size: 20px;
+    }
+    .emoji{
+        font-size: 64px;
+    }
+}
+@media all and (max-width: 328px) {
+    #countdown ul li {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    #heading {
+        font-size: 16px;
+    }
+    .emoji{
+        font-size: 48px;
+    }
+}

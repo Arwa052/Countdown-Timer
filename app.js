@@ -4,7 +4,7 @@
     const hour = minute * 60;
     const day = hour * 24;
     // set countdown time
-    var countDownDate = new Date("Aug 18, 2023 00:30:00").getTime()
+    var countDownDate = new Date("Aug 18, 2024 00:30:00").getTime()
 
     var countdown = setInterval(function() {
         // Get today's date and time
